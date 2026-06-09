@@ -1,0 +1,35 @@
+.check-out-button {
+}
+
+.menu-item {
+    flex-grow: 1;
+    width: 400px;
+    max-width: 472px;
+    height: 400px;
+    max-height: none;
+    font-size: 100px;
+    -unity-text-generator: advanced;
+    -unity-text-auto-size: best-fit 10px 100px;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.cart-list {
+    font-size: 20px;
+    -unity-text-generator: standard;
+    -unity-text-auto-size: none;
+    -unity-font-style: normal;
+}
+
+.timer-text {
+}
+
+.test-container {
+    visibility: visible;
+}
+
+.required-list {
+}
+
+.cart-number {
+}

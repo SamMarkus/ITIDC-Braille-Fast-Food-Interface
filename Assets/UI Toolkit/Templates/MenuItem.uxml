@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/MenuItems.uss?fileID=7433441132597879392&amp;guid=a8089688aef3e2042afa626ee724b081&amp;type=3#MenuItems"/>
+    <ui:Button text="Burger" name="Button" class="Button" style="width: 350px;"/>
+</ui:UXML>

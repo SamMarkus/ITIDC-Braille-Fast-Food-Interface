@@ -1,0 +1,27 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/USS/MenuInterface.uss?fileID=7433441132597879392&amp;guid=099370fc7f81af74cae633ef0a753d81&amp;type=3#MenuInterface"/>
+    <ui:VisualElement name="Main" style="flex-grow: 1; background-color: rgb(170, 170, 170); align-items: center;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; align-items: flex-start; align-content: flex-start; justify-content: flex-start; align-self: stretch;">
+            <ui:VisualElement style="flex-grow: 1; align-items: flex-start; justify-content: flex-start; align-self: flex-start; position: absolute; height: 1200px; width: 469px; background-color: rgb(122, 122, 122);">
+                <ui:ListView name="cart-list" show-border="false" virtualization-method="FixedHeight" fixed-item-height="25" class="cart-list" style="width: 466px; height: 1199px;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="MenuList" style="flex-grow: 1; top: auto; left: auto; right: auto; bottom: auto; flex-direction: row; align-items: stretch; align-self: flex-end; width: 75%; flex-wrap: wrap; position: relative; flex-basis: auto; align-content: flex-start; height: 831px; justify-content: flex-end;">
+                <ui:Button text="Burger" name="MenuItem1" class="menu-item"/>
+                <ui:Button text="Cheeseburger" name="MenuItem2" class="menu-item"/>
+                <ui:Button text="Chicken" name="MenuItem3" class="menu-item"/>
+                <ui:Button text="Spicy Chicken" name="MenuItem4" class="menu-item"/>
+                <ui:Button text="Fries" name="MenuItem5" class="menu-item"/>
+                <ui:Button text="Drink" name="MenuItem6" class="menu-item"/>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 1; align-self: flex-end; justify-content: space-evenly; width: 1443px; height: 245px;">
+                <ui:Button text="Check Out" name="CheckOut" class="check-out-button" style="height: 205px; width: 448px; align-self: flex-end; font-size: 87px; margin-right: 8px;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="TestElement" picking-mode="Ignore" class="test-container" style="flex-grow: 1; position: absolute; align-items: center; visibility: hidden;">
+            <ui:Image source="project://database/Assets/UI%20Toolkit/Images/Braille_Alphabet_Chart.png?fileID=2800000&amp;guid=9e36d3f7068ffed4ab6a45c62960562a&amp;type=3#Braille_Alphabet_Chart" picking-mode="Ignore" enabled="true" name="Image" style="position: absolute;"/>
+            <ui:Label text="Timer" class="timer-text" style="height: 67px; width: 742px; -unity-text-auto-size: best-fit 10px 100px; color: rgb(247, 244, 0); -unity-text-generator: advanced; -unity-text-align: upper-center; white-space: nowrap; right: auto;"/>
+            <ui:Label text="In Cart: " enable-rich-text="true" name="cartnumber" class="cart-number" style="position: absolute; width: 259px; -unity-text-generator: advanced; -unity-text-auto-size: best-fit 10px 100px; top: 945px; left: -561px; background-color: rgba(0, 0, 0, 0); color: rgb(247, 244, 0);"/>
+            <ui:ListView name="requiredList" fixed-item-height="50" class="required-list" style="height: 756px; width: 412px; position: absolute; top: 149px; left: -597px; background-color: rgb(182, 182, 182); -unity-text-generator: advanced; -unity-text-auto-size: best-fit 50px 100px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

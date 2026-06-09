@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f27a6d4c2b435b045956866b82f0005b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 197034
+  packageName: Haptics Direct for Unity V1
+  packageVersion: 1.1
+  assetPath: Assets/3DSystems/HapticsDirect/HapticPlugin/HapticsDirect.pdb
+  uploadId: 487604

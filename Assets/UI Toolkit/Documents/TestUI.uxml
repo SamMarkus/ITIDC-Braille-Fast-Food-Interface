@@ -1,0 +1,3 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Image source="project://database/Assets/UI%20Toolkit/Images/Braille_Alphabet_Chart.png?fileID=2800000&amp;guid=9e36d3f7068ffed4ab6a45c62960562a&amp;type=3#Braille_Alphabet_Chart"/>
+</ui:UXML>
